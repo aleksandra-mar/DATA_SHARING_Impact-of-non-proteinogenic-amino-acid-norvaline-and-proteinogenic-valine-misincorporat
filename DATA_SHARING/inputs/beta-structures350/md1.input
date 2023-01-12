@@ -1,0 +1,7 @@
+#1000 steps of simulation with explicite water, constant pressure (ntb 2) with constant temp 300K. AMBER10, weak RESTRAINES (ntr=1), and SHAKE (ntc=2, ntf=2)
+ &cntrl
+    imin=0, irest=1, ntx=5, iwrap=1, ioutfm=1, ntxo=2,
+    ntb=2, ntp=1, cut=10.0, ntc=2, ntf=2, ig=-1,
+    tempi=350.0, temp0=350.0, ntt=3, gamma_ln=1.0,
+    nstlim=50000000, dt=0.002, ntpr=1000, ntwx=500, ntwr=10000
+ /

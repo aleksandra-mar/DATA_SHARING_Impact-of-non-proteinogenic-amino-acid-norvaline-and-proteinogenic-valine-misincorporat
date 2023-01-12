@@ -1,0 +1,19 @@
+#1000 steps of simulation with explicite water, constant volume (ntb 1) with te
+ &cntrl
+    imin=0, irest=0, ntx=1, ioutfm=1, ntxo=2,
+    ntb=1, cut=9.0, ntr=1, ntc=2, ntf=2,
+    tempi=0.0, temp0=350.0, ntt=3, gamma_ln=1.0,
+    nstlim=50000, dt=0.001, ntpr=100, ntwx=100, ntwr=1000
+ /
+keep protein BB fixed with restraints
+10
+FIND
+C   * * *
+O   * * *
+N   * * *
+CA  * * *
+SEARCH
+RES 1 15
+END
+END
+

@@ -1,0 +1,17 @@
+#500 steps of minimization, distance-dependent dielectric in AMBER9, THE FIRST
+ &cntrl
+    imin=1, maxcyc=2500, ncyc=470, ntmin=1, nsnb=15,
+    ntb=1, cut=9.0, ntr=1
+ /
+Hold the protein BB constrained
+50
+FIND
+C   * * *
+O   * * *
+N   * * *
+CA  * * *
+SEARCH
+RES 1 16
+END
+END
+

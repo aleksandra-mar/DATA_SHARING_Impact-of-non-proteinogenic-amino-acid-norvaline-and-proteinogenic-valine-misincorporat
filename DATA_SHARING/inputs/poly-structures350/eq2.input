@@ -1,0 +1,12 @@
+#Steps of simulation with explicite water, constant volume (ntb 1) with temp increasing from 0-300K. AMBER9,  weak RESTRAINES (ntr=1), and SHAKE (ntc=2, ntf=2)
+ &cntrl
+    imin=0, irest=1, ntx=5, iwrap=1, ioutfm=1, ntxo=2,
+    ntb=2, ntp=1, cut=9.0, ntc=2, ntf=2, ig=-1,
+    tempi=350.0, temp0=350.0, ntt=3, gamma_ln=1.0,
+    nstlim=50000, dt=0.001, ntpr=1000, ntwx=1000, ntwr=1000, ntr=1
+ /
+Hold the protein constrained
+1
+RES 1 15
+END
+END

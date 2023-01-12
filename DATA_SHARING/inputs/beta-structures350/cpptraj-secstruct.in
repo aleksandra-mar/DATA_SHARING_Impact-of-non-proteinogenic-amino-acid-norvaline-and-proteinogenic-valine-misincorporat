@@ -1,0 +1,11 @@
+trajin betaNVA_md1.nc #1 100000 10
+trajin betaNVA_md2.nc #1 100000 10
+trajin betaNVA_md3.nc #1 100000 10
+trajin betaNVA_md4.nc #1 100000 10
+trajin betaNVA_md5.nc #1 100000 10
+trajin betaNVA_md6.nc #1 100000 10
+trajin betaNVA_md7.nc #1 100000 10
+trajin betaNVA_md8.nc #1 100000 10
+trajin betaNVA_md9.nc #1 100000 10
+trajin betaNVA_md10.nc #1 100000 10
+secstruct :1-18 out betaNVA350-1.gnu sumout betaNVA350-1.arg

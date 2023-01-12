@@ -1,0 +1,11 @@
+trajin betaALA_md1.nc #1 100000 10
+trajin betaALA_md2.nc #1 100000 10
+trajin betaALA_md3.nc #1 100000 10
+trajin betaALA_md4.nc #1 100000 10
+trajin betaALA_md5.nc #1 100000 10
+trajin betaALA_md6.nc #1 100000 10
+trajin betaALA_md7.nc #1 100000 10
+trajin betaALA_md8.nc #1 100000 10
+trajin betaALA_md9.nc #1 100000 10
+trajin betaALA_md10.nc #1 100000 10
+secstruct :1-18 out betaALA350-6.gnu sumout betaALA350-6.arg
